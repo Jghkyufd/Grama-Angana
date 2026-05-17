@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grama Angana</string>
+    <string name="title_calendar">Event Calendar</string>
+    <string name="title_booking">Request Booking</string>
+    <string name="title_maintenance">Maintenance Jar</string>
+    <string name="title_events">Event Board</string>
+    <string name="request_booking">Request Booking</string>
+    <string name="no_events">No events today. Check back soon!</string>
+    <string name="pledge_button_text">Pledge ₹50</string>
+    <string name="slot_already_booked">This slot is already booked. Please choose another.</string>
+    <string name="booking_success">Your request has been sent to the Panchayat for approval.</string>
+    <string name="add_maintenance">Add Maintenance Item</string>
+    <string name="add_announcement">Add Announcement</string>
+    <string name="whats_happening_today">What\'s Happening Today</string>
+</resources>

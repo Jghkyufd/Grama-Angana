@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_calendar">
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.grama_angana.ui.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_booking"
+        android:name="com.example.grama_angana.ui.BookingFormFragment"
+        android:label="@string/title_booking"
+        tools:layout="@layout/fragment_booking_form" />
+
+    <fragment
+        android:id="@+id/navigation_maintenance"
+        android:name="com.example.grama_angana.ui.MaintenanceFragment"
+        android:label="@string/title_maintenance"
+        tools:layout="@layout/fragment_maintenance" />
+
+    <fragment
+        android:id="@+id/navigation_events"
+        android:name="com.example.grama_angana.ui.EventBoardFragment"
+        android:label="@string/title_events"
+        tools:layout="@layout/fragment_event_board" />
+</navigation>

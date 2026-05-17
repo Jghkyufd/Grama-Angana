@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/title_calendar" />
+
+    <item
+        android:id="@+id/navigation_booking"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/title_booking" />
+
+    <item
+        android:id="@+id/navigation_maintenance"
+        android:icon="@drawable/ic_jar"
+        android:title="@string/title_maintenance" />
+
+    <item
+        android:id="@+id/navigation_events"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/title_events" />
+</menu>
